@@ -16,17 +16,17 @@ RetailOps then pulls this order information, fulfills said orders, and pushes st
 
 ### Channel Interactions:
 
-- Catalog Get Config - Configuration information about Catalog Push
-- Catalog Push - New product information and product updates
-- Inventory Push - Inventory updates
-- Order Pull - Fetch new orders from the channel which are ready
-- Order Acknowledge - Mark specific fetched orders has having been picked up
-- Order Update - Update channel order information to reflect order items which have been updated, added, or removed in RetailOps
-- Order Cancel - Mark an order as canceled in the channel
-- Order Shipment Submit - Convey shipping status and tracking information to the channel
-- Order Complete - Mark an order as fully completed in the channel
-- Order Settle Payment - Cause the channel to collect/capture payment, or otherwise verify payment has been collected
-- Items Returned - Notify the channel that a return has been processed against the order
+- catalog_get_config - Configuration information about Catalog Push
+- catalog_push - New product information and product updates
+- inventory_push - Inventory updates
+- order_pull - Fetch new orders from the channel which are ready
+- order_acknowledge - Mark specific fetched orders has having been picked up
+- order_update - Update channel order information to reflect order items which have been updated, added, or removed in RetailOps
+- order_cancel - Mark an order as canceled in the channel
+- order_shipment_submit - Convey shipping status and tracking information to the channel
+- order_complete - Mark an order as fully completed in the channel
+- order_settle_payment - Cause the channel to collect/capture payment, or otherwise verify payment has been collected
+- order_returned - Notify the channel that a return has been processed against the order
 
 ## Shipper Integrations
 
