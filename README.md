@@ -16,7 +16,7 @@ RetailOps then pulls this order information, fulfills said orders, and pushes st
 
 ### Channel Interactions:
 
-- [catalog_get_config](docs/channel/catalog_get_config.md) - Configuration information about Catalog Push
+- [catalog_get_config](docs/channel/catalog_get_config_v1.md) - Configuration information about Catalog Push
 - catalog_push - New product information and product updates
 - inventory_push - Inventory updates
 - order_pull - Fetch new orders from the channel which are ready
