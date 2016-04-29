@@ -89,7 +89,6 @@ function traverseDefs (ref){
         var value = walkRefRead(schema_in,path); // read definition from input file
 
         // process nested refs for inclusion
-        if(typeof value['parameters'] == 'object'){
             Object.keys(value['parameters']).forEach(function(key) {
                 if (value["parameters"][key]["$ref"]) traverseDefs(value["parameters"][key]["$ref"]);
             });
