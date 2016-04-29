@@ -1,13 +1,13 @@
 {
     "swagger": "2.0",
     "info": {
-        "title": "Uber API",
-        "description": "Move your app forward with the Uber API",
+        "title": "RetailOps Channel Webhook Integration Method",
+        "description": "Integrate a sales channel with RetailOps",
         "version": "1.0.0"
     },
-    "host": "api.uber.com",
+    "host": "your.servername-here.com",
     "schemes": [
-        "https"
+        "https","http"
     ],
     "basePath": "/",
     "produces": [
